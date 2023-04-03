@@ -1,0 +1,30 @@
+
+.banner{
+    background: url(../images/banner.jpg) no-repeat 0px 0px;
+    background-size: cover;
+    height: 100vh;
+}
+
+
+.intro{
+    position: absolute;
+    width: 100%;
+
+    /*水平置中子元素*/
+    display: flex; 
+    justify-content: center;
+
+    font-size: 2em;
+}
+
+
+.msg_box{
+    width: 60%;
+    padding: 25px;
+    margin-top: 30px;
+    color: #555555;
+    box-shadow: 6px 0 12px -5px rgb(253, 223, 234), -6px 0 12px -5px rgb(215, 240, 243);
+    background-color: #FFDEE9;
+    background-image: linear-gradient(0deg,#ffdee9c4 0%,#b5fffc8f 100%);
+    border-radius: 10px;
+}

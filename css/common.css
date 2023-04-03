@@ -1,0 +1,87 @@
+*{
+    z-index: 1000;
+}
+
+h4, h5, h6,
+h1, h2, h3 {margin-top: 0;}
+ul, ol {margin: 0;}
+p {margin: 0;}
+html, body{
+	font-family: 'OpenSans-Regular';
+	font-size: 100%;
+	background: #ffffff;
+}
+
+
+body a{
+	transition:0.5s all;
+}
+
+.banner{
+    position: relative;
+}
+
+.mask{
+    width: 100%;
+    height: 100%;
+    background: rgb(0, 0, 0,0.5);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.header{
+    position: relative;
+}
+
+.header .logo{
+    /* position: absolute */
+    display: table;
+    margin: 0 auto;
+}
+
+.logo a{
+    color: #FFF;
+    font-size: 5em;
+    font-family: 'Dorsa-Regular';
+    text-decoration: none;
+    /* letter-spacing: 2px; */
+    /* text-align: center; */
+}
+
+.top-nav {
+    text-align: center;
+    padding: 1em 0 1em 0;
+    border-top: ridge 3px rgba(255, 255, 255, 0.3);
+    position: relative;
+}
+
+.top-nav ul {
+    padding: 0;
+    margin: 0;
+}
+
+.top-nav ul li {
+    display: inline-block;
+    margin: 0 2em;
+}
+.top-nav ul li a.active {
+    border-bottom: solid 2px #FFF;
+    color: #fc4a67;
+}
+
+.top-nav ul li a:hover{
+    color: #fc4a67;
+}	
+
+.top-nav ul li a {
+    color: #FFF;
+    font-size: 1.5em;
+    letter-spacing: 3px;
+    margin: 0;
+    font-weight: 600;
+    font-family: 'Dorsa-Regular';
+    text-decoration: none;
+    padding: .7em 0 0 0;
+}

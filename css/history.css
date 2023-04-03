@@ -1,0 +1,47 @@
+.title-mid{
+    text-align: center;
+}
+.title-left{
+    text-align: left;
+}
+
+.sub-title {
+    margin: 2em 0;
+}
+
+.sub-title h3{
+    color: #6E6E6E;
+    font-size: 2.5em;
+    margin: 0;
+    font-family: 'Dorsa-Regular';
+    letter-spacing: 2px;
+}
+
+.culture-intro .content{
+    font-size: 1.5em;
+    margin-bottom: 1.5em;
+}
+
+.building{
+    background-color: #fc4a67;
+}
+.building .sub-title{
+    padding-top: 30px;
+}
+.building .sub-title h3{
+    color: #FFF;
+}
+
+.building h3,.building p{
+    margin: 10px;
+}
+
+.building-img{
+    overflow: hidden;
+    height: 250px;
+}
+
+.building-img img{
+    width: 100%;
+}
+
