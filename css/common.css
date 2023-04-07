@@ -1,3 +1,4 @@
+/*************默認樣式*************/
 *{
     z-index: 1000;
 }
@@ -17,6 +18,8 @@ body a{
 	transition:0.5s all;
 }
 
+
+/*************各個頁面統一的頭部樣式*************/
 .banner{
     position: relative;
 }
@@ -41,7 +44,7 @@ body a{
     margin: 0 auto;
 }
 
-.logo a{
+ .logo a{
     color: #FFF;
     font-size: 5em;
     font-family: 'Dorsa-Regular';
@@ -85,3 +88,5 @@ body a{
     text-decoration: none;
     padding: .7em 0 0 0;
 }
+
+
